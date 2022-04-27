@@ -46,7 +46,7 @@ public class testando {
 	public void test() {
 	String texto = driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div/div/div[1]/div/div[2]")).getText();
 	System.out.println(texto);
-	assertEquals("Senha incorreta. Tente novamente ou redefina sua senha.",texto);
+	assertEquals("Senha incorreta. Tente novamente ou redefina sua senha.", texto);
 	}
 	
 
